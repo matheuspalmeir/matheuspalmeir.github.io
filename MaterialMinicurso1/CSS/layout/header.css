@@ -1,0 +1,40 @@
+.barra-superior{ /* nesse momento eu defini uma classe css, sempre que eu quiser definir uma classe, começo ela com um: .nome;*/
+	display: block; /* é uma propriedade que diz que o block vai preecher a linha da página */
+	height: 50px; width: calc(100% - 30px); /* calc é uma função que determina o espaço entre elementos dentro da div, juntamente com o padding*/
+	padding: 0 15px;
+	background-color: rgba(67, 84, 92, 1); /* primeiro valor equivale a distancia vertical,segundo horizontal*/  
+} 
+
+.redes-sociais{
+	float: right;
+	display: inline-block;
+	width: 50px; height: 50px;
+	background-position: 13px 13px;
+	background-size: 24px 24px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+.face{
+	background-image: url("../images/face.wix_mp");
+}
+
+.youtube{
+	background-image: url("../images/youtube.png");
+}
+
+
+.twitter{
+	background-image: url("../images/twitter.png");
+}
+
+.cabecalho-principal{
+	display: block;
+	width: 100%; height: 200px;
+}
+
+.cabecalho-principal > h1{
+	display: block;
+	line-height: 200px; text-align: center;
+	font-size: 90px; font-family: 'Open Sans', sans-serif;
+	color: #000000; text-transform: uppercase;s
+}

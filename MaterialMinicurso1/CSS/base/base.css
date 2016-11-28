@@ -1,0 +1,40 @@
+*{ /*asterico remete a todo e qualquer elemento do nosso documento*/
+	margin: 0; padding: 0;
+}
+
+li{
+list-style: none;
+
+}
+
+section{
+	display: block;
+	padding: 30px 5vw;
+	font-family: sans-serif;
+}
+
+section h1{
+	display:block;
+	margin-left: 30px;
+	font-size: 35px;
+	margin-bottom: 20px;
+}
+
+section h2{
+	font-size: 20px;
+}
+
+section p{
+	text-indent:  40px;
+	font-size:  16px
+	text-align: justify;
+	margin: 15px 0 10px;
+}
+
+p a{
+	color: #000; text-decoration: none;
+}
+
+p a:hover{
+	text-decoration: underline;
+}
